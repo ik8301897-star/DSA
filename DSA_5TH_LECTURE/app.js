@@ -166,3 +166,100 @@
 //    i++
 // }
 // console.log(arr);
+
+
+
+
+
+
+// SELF PRACTICE 
+
+
+// // 1. Find Maximum Element
+
+// let arr = [12, 45, 7, 89, 23];
+// let max = arr[0];
+
+// for(let i = 1 ; i<arr.length; i++){
+//     if(arr[i]>max){
+//         max = arr[i]
+//     }
+
+// }
+// console.log(max);
+
+
+
+
+// // 2. Find Second Largest Element
+
+// let arr = [10, 5, 20, 8, 15];
+// let max = Math.max(arr[0],arr[1]);
+// let smax = Math.min(arr[0],arr[1]);
+
+// for(let i = 2; i<arr.length; i++){
+//     if(arr[i]>max){
+//         smax = max;
+//         max = arr[i]
+//     }
+//     else if(arr[i]>smax){
+//         smax = arr[i]
+//     }
+// }
+// console.log(smax);
+
+
+
+
+
+// // 4. Reverse an Array
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let i = 0 , j = arr.length-1;
+
+// while(i<j){
+//     let temp = arr[i];
+//     arr[i] = arr[j];
+//     arr[j] = temp;
+//     i++
+//     j--
+// }
+// console.log(arr);
+
+
+
+
+
+// // 5. Move All Zeros To End
+
+// let arr = [1, 0, 2, 0, 3, 4];
+// let i = 0 , j = 0;
+
+// while(i<arr.length){
+//     if(arr[i]!==0){
+//         let temp = arr[i];
+//         arr[i] = arr[j];
+//         arr[j] = temp;
+//         j++
+//     }
+//     i++
+// }
+// console.log(arr);
+
+
+
+
+// 7. Find Pair With Given Sum
+
+// let arr =  [2, 7, 11, 15];
+// target = 9;
+
+// for(let i = 0; i<arr.length; i++){
+//     for(let j = i+1; j<arr.length; j++){
+//         if((arr[i]+arr[j]==target)){
+//             console.log(arr[i],arr[j]);
+            
+//         }
+//     }
+// }
