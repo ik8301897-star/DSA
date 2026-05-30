@@ -240,25 +240,25 @@
 //    ***
 //     *
 
-let num = 3;
+// let num = 3;
 
-for(let i = 1; i<=num; i++){
-    for(let j=1 ; j<=num-i;j++){
-        process.stdout.write(" ")
-    }
-    for(let k = 1; k<=i*2-1; k++){
-        process.stdout.write("*")
-    }
-    console.log();
+// for(let i = 1; i<=num; i++){
+//     for(let j=1 ; j<=num-i;j++){
+//         process.stdout.write(" ")
+//     }
+//     for(let k = 1; k<=i*2-1; k++){
+//         process.stdout.write("*")
+//     }
+//     console.log();
     
-}
-for(let i = 1; i<=num-1;i++){
-    for(let j = 1;j<=i; j++){
-        process.stdout.write(" ")
-    }
-    for(let k = 1;k<= (num-i)*2-1 ; k++){
-        process.stdout.write("*")
-    }
-    console.log();
+// }
+// for(let i = 1; i<=num-1;i++){
+//     for(let j = 1;j<=i; j++){
+//         process.stdout.write(" ")
+//     }
+//     for(let k = 1;k<= (num-i)*2-1 ; k++){
+//         process.stdout.write("*")
+//     }
+//     console.log();
     
-}
+// }
