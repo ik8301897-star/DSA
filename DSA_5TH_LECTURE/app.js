@@ -263,3 +263,145 @@
 //         }
 //     }
 // }
+
+
+
+
+
+
+// Q SUM OF ARRAY ELEMENTS
+
+// let arr = [10,20,30,40,50];
+// let sum = 0;
+
+// for(let i = 0; i<arr.length; i++){
+//     sum = sum + arr[i];
+// }
+// console.log(sum);
+
+
+
+
+
+// FIND THE MAXIMUM ELEMENT IN THE ARRAY.
+
+// let arr = [12,45,7,89,34];
+// let max = arr[0];
+
+// for(let i = 1; i<arr.length; i++){
+//     if(arr[i]>max){
+//         max = arr[i]
+//     }
+// }
+// console.log(max);
+
+
+
+
+
+// FIND THE MINIMUM ELEMENT IN THE ARRAY.
+
+// let arr = [12,45,7,89,34];
+// let min = arr[0];
+
+// for(let i = 1; i<arr.length; i++){
+//     if(arr[i]<min){
+//         min = arr[i]
+//     }
+// }
+// console.log(min);
+
+
+
+
+
+// FIND THE SECOND MAXIMUM ELEMENT IN THE ARRAY.
+
+// let arr = [12,45,7,89,34];
+// let max = Math.max(arr[0],arr[1]);
+// let smax = Math.min(arr[0],arr[1]);
+
+// for(let i = 2; i<arr.length ; i++){
+//     if(arr[i]>max){
+//         smax = max;
+//         max = arr[i];
+
+//     }
+//     else if(arr[i]>smax){
+//         smax = arr[i]
+
+//     }
+// }
+// console.log(smax);
+
+
+
+
+
+
+
+// FIND THE SECOND MINIMUM ELEMENT IN THE ARRAY.
+
+// let arr = [12,45,7,89,34];
+// let min = Math.min(arr[0],arr[1]) // 12
+// let smin = Math.max(arr[0],arr[1])  // 45
+
+// for(let i = 2; i<arr.length; i++){
+//     if(arr[i]<min){
+//         smin = min ;
+//         min = arr[i]
+//     }
+//     else if(arr[i]<smin){
+//         smin = arr[i]
+//     }
+// }
+// console.log(smin);
+
+
+
+
+//  REVERSE THE ARRAY
+
+// let arr= [10,20,30,40,50];
+// let revArr = [];
+
+// for(let i = arr.length-1; i>=0; i--){
+//     revArr[revArr.length] = arr[i];
+// }
+// console.log(revArr);
+
+// SECOND METHOD REVERSE THE ARRAY
+
+// let arr = [10,20,30,40,50];
+
+// let i = 0 , j = arr.length-1;
+
+// while(i<j){
+//     let temp = arr[i];
+//     arr[i] = arr[j];
+//     arr[j] = temp
+//     i++
+//     j--
+// }
+// console.log(arr);
+
+
+
+
+
+// MOVE ALL 0s TO THE LEFT SIDE AND ALL 1s TO THE RIGHT SIDE
+
+// let arr = [1,0,1,0,1,0,0,1];
+//  let i = 0 , j = 0;
+
+//  while(i<arr.length){
+//     if(arr[i] ==0){
+//         let temp = arr[i];
+//         arr[i] = arr[j];
+//         arr[j] = temp
+//         j++
+//     }
+//     i++
+//  }
+//  console.log(arr);
+ 
